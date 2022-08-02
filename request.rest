@@ -1,0 +1,31 @@
+GET http://localhost:5000/barang
+
+
+###
+GET http://localhost:5000/barang/1
+
+
+###
+POST http://localhost:5000/barang
+Content-Type: application/json
+
+{
+    "name": "Iphone 13 pro",
+    "jenis": "Handphone",
+    "stok" : "25"
+}
+
+
+###
+PATCH http://localhost:5000/barang/1
+Content-Type: application/json
+
+{
+    "name": "Samsung",
+    "jenis": "Handphone",
+    "stok" : "10"
+}
+
+
+###
+DELETE  http://localhost:5000/barang/2
