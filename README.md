@@ -1,7 +1,5 @@
 ### Start
-
--npm install
--nodemon index 
+npm install, nodemon index 
 
 ### Stack
 express, cors, mysql2, sequelize
