@@ -1,9 +1,6 @@
-# api-barang
+~ npm install
+~ nodemon index 
 
-1. npm install
-2. nodemon index 
-
-
-## stack 
+### Stack
 express, cors, mysql2, sequelize
 
